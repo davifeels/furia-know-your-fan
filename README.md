@@ -79,7 +79,7 @@ Abra index.html em um navegador para usar o formulário.
 Este projeto foi desenvolvido exclusivamente para fins educacionais e participação no processo seletivo da FURIA Tech 2025.
 
 🏆 Autor
-Feito com orgulho por Davi Ferreira 🐾
+Feito com orgulho por Davi Anderson 🐾
 
 GitHub
 
