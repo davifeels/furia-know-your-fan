@@ -1,3 +1,17 @@
+# Furia Connect
+
+Projeto incrível para conectar fãs da FURIA!
+
+## Imagens
+
+### Tela de Login
+![Tela de Login](furia1.JPG)
+
+### Eventos
+![Eventos](jogos12.JPG)
+
+
+
 # 🐾 FURIA Know Your Fan
 
 Projeto desenvolvido para o processo seletivo **FURIA Tech 2025**.  
