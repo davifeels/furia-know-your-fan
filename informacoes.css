@@ -1,0 +1,136 @@
+/* Geral */
+body {
+    background-color: #121212;
+    color: #e0e0e0;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Header */
+header {
+    padding: 30px;
+    background-color: #000;
+    color: #f7a600;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.8);
+    border-bottom: 3px solid #f7a600;
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.2em;
+    color: #ccc;
+}
+
+/* Container para as seções */
+.container {
+    padding: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: #1e1e1e;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(247, 166, 0, 0.5);
+    margin-top: 40px;
+}
+
+/* Títulos das seções */
+h2 {
+    color: #f7a600;
+    font-size: 1.8em;
+    margin-bottom: 15px;
+    text-align: left;
+    border-bottom: 2px solid #f7a600;
+    padding-bottom: 5px;
+}
+
+/* Estilo das listas de jogos, escalação e notícias */
+#jogos-lista, #escalao, #noticias-lista {
+    text-align: left;
+    margin-top: 20px;
+    padding-left: 20px;
+    list-style: none;
+}
+
+#jogos-lista div, #escalao div, #noticias-lista div {
+    background-color: #2b2b2b;
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.6);
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+#jogos-lista div:hover, #escalao div:hover, #noticias-lista div:hover {
+    background-color: #333;
+    cursor: pointer;
+    transform: scale(1.05); /* Pequeno zoom na interação */
+}
+
+/* Estilo para os botões */
+button, .btn {
+    background-color: #f7a600;
+    color: #121212;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.2em;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.2s;
+}
+
+button:hover, .btn:hover {
+    background-color: #ffb700;
+    transform: scale(1.05);
+}
+
+/* Estilo para o rodapé */
+footer {
+    margin-top: 50px;
+    padding: 20px;
+    background-color: #000;
+    color: #f7a600;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Loader (animação de carregamento) */
+.loader {
+    font-size: 1.5em;
+    color: #f7a600;
+    font-weight: bold;
+}
+
+/* Estilo para quando não houver dados */
+p {
+    color: #ccc;
+    font-size: 1.1em;
+}
+
+/* Responsividade para telas menores */
+@media (max-width: 768px) {
+    .container {
+        padding: 15px;
+        margin-top: 20px;
+    }
+    
+    header h1 {
+        font-size: 2em;
+    }
+    
+    h2 {
+        font-size: 1.5em;
+    }
+    
+    .btn, button {
+        width: 100%;
+        padding: 12px;
+    }
+}

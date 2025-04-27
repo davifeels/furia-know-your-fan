@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FURIA - Próximos Jogos e Escalação</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>FURIA - Próximos Jogos e Escalação</h1>
+    <p>Fique por dentro dos próximos jogos da FURIA, conheça a escalação e leia as últimas notícias! 🐾🎮</p>
+  </header>
+
+  <!-- Filtros para alternar entre categorias -->
+  <section id="filtros">
+    <h2>Selecione a Categoria</h2>
+    <select id="filtro-categoria">
+      <option value="proximos-jogos">Próximos Jogos</option>
+      <option value="escalao">Escalação</option>
+      <option value="noticias">Últimas Notícias</option>
+    </select>
+  </section>
+
+  <main class="container">
+    <!-- Seção de Próximos Jogos -->
+    <section id="proximos-jogos" class="conteudo">
+      <h2>Próximos Jogos</h2>
+      <p>Acompanhe os próximos confrontos da FURIA nos torneios de CS:GO e outros jogos!</p>
+      <div id="jogos-lista">
+        <!-- Jogos serão preenchidos aqui via JS -->
+      </div>
+    </section>
+
+    <!-- Seção de Escalação -->
+    <section id="escalao" class="conteudo">
+      <h2>Escalação</h2>
+      <p>Conheça os jogadores que representam a FURIA nos campeonatos. Vamos juntos apoiar nossa equipe!</p>
+      <div id="escalao">
+        <!-- Escalação será preenchida aqui via JS -->
+      </div>
+    </section>
+
+    <!-- Seção de Notícias -->
+    <section id="noticias" class="conteudo">
+      <h2>Últimas Notícias</h2>
+      <p>Fique por dentro das últimas notícias sobre a FURIA, torneios e muito mais!</p>
+      <div id="noticias-lista">
+        <!-- Notícias serão preenchidas aqui via JS -->
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Projeto desenvolvido para o processo FURIA Tech 2025 🐾</p>
+  </footer>
+
+  <script src="informacoes.js"></script>
+
+</body>
+</html>
