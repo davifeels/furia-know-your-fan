@@ -1,76 +1,59 @@
 # 🐾 FURIA Know Your Fan
 
 Projeto desenvolvido para o processo seletivo **FURIA Tech 2025**.  
-O objetivo é criar uma solução que conheça profundamente o fã de e-sports, oferecendo experiências e serviços exclusivos.
+O objetivo é criar uma solução para coletar, organizar e validar informações de fãs de e-sports, focando na experiência do torcedor da FURIA.
 
 ---
 
-📌 Sobre o Projeto
-FURIA Know Your Fan é uma plataforma que coleta, organiza e valida informações de fãs do cenário de e-sports, simulando técnicas de "Know Your Customer (KYC)" aplicadas para o fandom.
+## 📌 Sobre o Projeto
 
-💬 Funcionalidades principais
-Coleta de dados pessoais e históricos de eventos/compras.
+**FURIA Know Your Fan** é uma plataforma web com integração de backend para cadastro, análise e listagem de fãs.
 
-Upload e validação simulada de documento oficial.
+Funcionalidades principais:
 
-Integração de redes sociais e validação inteligente dos perfis.
+- 📋 Coleta de dados básicos (Nome, CPF, Endereço, Interesses)
+- 📂 Upload de documento com validação simulada
+- 🌐 Integração de redes sociais (Instagram, Twitter, Twitch)
+- 🧠 Análise de perfil com identificação de fãs de e-sports
+- 📜 Resumo gerado após o cadastro
+- 🖥️ Backend Node.js para salvar dados em `dados.json`
 
-Visual gamer inspirado na identidade visual da FURIA.
+---
 
-🧩 Funcionalidades Detalhadas
+## 🎨 Layout
 
-Área	O que faz
-📋 Dados Pessoais	Coleta nome, endereço, e-mail e CPF
-🎮 Histórico Esportivo	Registra interesses, eventos e compras de e-sports
-🧠 Validação de Documento	Simula uma IA validando arquivos de imagem ou PDF
-🌐 Integração de Redes	Conecta Instagram, Twitter, Twitch e perfis de e-sports
-🤖 Análise de Relevância	Valida se os perfis são relacionados à FURIA/e-sports
-📜 Resumo Gerado	Exibe um relatório visual do fã na tela
-🎨 Layout
-Interface dark inspirada nas cores da FURIA.
+- Tema escuro inspirado na FURIA.
+- Estilo responsivo para desktop e mobile.
+- Animações suaves para feedback do usuário.
 
-Estilo responsivo para navegadores modernos.
+---
 
-Animações sutis para melhor experiência do usuário.
+## 📂 Estrutura do Projeto
 
-📂 Estrutura do Projeto
-perl
+furia-know-your-fan/ ├── index.html # Página principal do formulário ├── sucesso.html # Página de confirmação de cadastro ├── informacoes.html # Página listando próximos jogos ├── style.css # Estilo geral ├── informacoes.css # Estilo da página de informações ├── script.js # Lógica do formulário (validação, envio) ├── informacoes.js # Script para carregar dados de jogos ├── server.js # Servidor Node.js com rotas de API ├── dados.json # Banco de dados local dos fãs ├── package.json # Configurações do Node.js ├── README.md # Documentação do projeto └── enviarDados.js # Script auxiliar para envio de dados automáticos
+
+yaml
 Copiar
 Editar
-furia-know-your-fan/
-├── assets/               # Pasta de imagens ou arquivos estáticos
-├── node_modules/         # Dependências Node.js
-├── dados.json            # Base de dados dos fãs
-├── enviarDados.js        # Script para enviar dados automaticamente
-├── index.html            # Página principal do formulário
-├── informacoes.html      # Página de informações (próximos jogos)
-├── informacoes.css       # Estilo da página de informações
-├── informacoes.js        # Script para carregar jogos da FURIA
-├── sucesso.html          # Página de sucesso após cadastro
-├── style.css             # Estilo da página principal
-├── script.js             # Script do formulário
-├── server.js             # Backend para salvar/listar fãs
-├── package.json          # Configurações e dependências
-├── package-lock.json     # Controle de versões
-└── README.md             # Documentação do projeto
-🛠️ Tecnologias Utilizadas
-HTML5 – Estrutura da página
 
-CSS3 – Estilização e responsividade
+---
 
-JavaScript (ES6) – Manipulação de dados e DOM
+## 🛠️ Tecnologias Utilizadas
 
-Node.js + Express – Backend para gerenciamento de fãs
+- **HTML5** – Estrutura de páginas
+- **CSS3** – Estilização responsiva
+- **JavaScript (ES6)** – Lógicas de validação e interatividade
+- **Node.js + Express** – Backend para coleta e listagem de dados
+- **VS Code + Live Server** – Ambiente de desenvolvimento
 
-VS Code + Live Server – Ambiente de desenvolvimento
+---
 
-🚀 Como Rodar o Projeto
-Clone o repositório:
+## 🚀 Como Executar Localmente
 
-bash
-Copiar
-Editar
-git clone https://github.com/seuusuario/furia-know-your-fan.git
+1. Clone o repositório:
+
+```bash
+git clone https://github.com/davifeels/furia-know-your-fan.git
 Entre na pasta do projeto:
 
 bash
@@ -89,19 +72,17 @@ bash
 Copiar
 Editar
 node server.js
-Abra o index.html em um navegador.
-(Recomendo utilizar a extensão Live Server do VS Code para facilitar.)
+Abra index.html em um navegador para usar o formulário.
 
 🎬 Demonstração em Vídeo
-📹 (Inserir aqui o link do vídeo gravado: YouTube / Google Drive / Vimeo)
+(Inserir o link do vídeo de apresentação após a gravação.)
 
 📜 Licença
-Este projeto foi desenvolvido exclusivamente para fins educacionais e para participação no processo seletivo FURIA Tech 2025.
-Todos os direitos de imagens e marcas pertencem aos seus respectivos donos.
+Este projeto foi desenvolvido exclusivamente para fins educacionais e participação no processo seletivo da FURIA Tech 2025.
 
 🏆 Autor
 Feito com orgulho por Davi Ferreira 🐾
 
-LinkedIn | GitHub
+GitHub
 
 🔥 "A FURIA não é só um time. É um sentimento."
