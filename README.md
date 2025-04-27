@@ -74,8 +74,6 @@ Editar
 node server.js
 Abra index.html em um navegador para usar o formulário.
 
-🎬 Demonstração em Vídeo
-(Inserir o link do vídeo de apresentação após a gravação.)
 
 📜 Licença
 Este projeto foi desenvolvido exclusivamente para fins educacionais e participação no processo seletivo da FURIA Tech 2025.
